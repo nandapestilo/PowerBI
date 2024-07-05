@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel de Imagens</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="imagens/download.png" alt="power BI" height="80" width="200">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="ramificações.html">Ramificações</a></li>
+                <li><a href="onde-aprender.html">Onde Aprender</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="carousel">
+            <div class="slides">
+                <img src="imagens/Power-BI-Desktop-Feature-image.jpg" alt="Descrição da Imagem 1">
+                <img src="imagens/power-bi-phone-report-page-not-optimized.png" alt="Descrição da Imagem 2">
+                <img src="imagens/1616052969719.jfif" alt="Descrição da Imagem 3">
+            </div>
+            <button class="prev" onclick="moveSlides(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlides(1)">&#10095;</button>
+        </section>
+        <br>
+        <section>
+            <h2>Power BI Desktop</h2>
+            <p>O Power BI Desktop é uma ferramenta gratuita da Microsoft para análise de dados e criação de relatórios interativos. Ele conecta-se a diversas fontes de dados, permite a transformação e modelagem de dados, e utiliza a linguagem DAX para cálculos avançados. Com uma interface intuitiva, facilita a criação de visualizações interativas e relatórios detalhados. Os relatórios podem ser publicados no Power BI Service, permitindo colaboração e atualização automática dos dados. É uma solução poderosa e acessível para transformar dados em insights valiosos.</p>
+        </section>
+            <br>
+            <h2>Power BI Mobile</h2>
+            <p>O Power BI Mobile é o aplicativo da Microsoft que permite acessar relatórios e dashboards do Power BI em dispositivos móveis. Disponível para iOS, Android e Windows, ele oferece visualizações interativas e atualizações automáticas de dados, integrando-se ao Power BI Service para acesso conveniente aos insights de negócios em qualquer lugar. É essencial para profissionais que precisam de acesso móvel rápido e eficiente aos dados para tomada de decisões informadas.</p>
+            <br>
+            <h2>Power BI Service</h2>
+            <p>O Power BI Service é a plataforma na nuvem da Microsoft para hospedar, compartilhar e gerenciar relatórios e dashboards criados com o Power BI Desktop. Ele oferece colaboração em tempo real, atualizações automáticas de dados e segurança avançada com integração ao Azure Active Directory. Essencial para equipes que precisam acessar e compartilhar insights de negócios de maneira eficiente e segura através de qualquer navegador web ou aplicativo móvel.</p>
+        </section>
+            
+    </main>
+    <footer>
+        <p>&copy; 2024 Power BI</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
